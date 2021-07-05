@@ -7,7 +7,10 @@ h1 {
 }
 .display {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
+}
+.toppertag {
+  color: orangered;
 }
 .topper {
   width: 50%;
@@ -15,12 +18,24 @@ h1 {
   margin-left: 2%;
 }
 .topper img {
-  width: 80%;
+  width: 90%;
 }
 .button {
   text-decoration: none;
   padding: 10px 40px;
   color: white;
-  background-image: linear-gradient(red, green, lightyellow);
+  background-image: linear-gradient(orange, tomato, red);
   border-radius: 10px;
+}
+.middle {
+  width: 50%;
+  margin: 2%;
+  padding-left: 5%;
+}
+.middle img {
+  width: 70%;
+}
+#secondpart {
+  background-image: url(img/7.png);
+  background-repeat: no-repeat;
 }
